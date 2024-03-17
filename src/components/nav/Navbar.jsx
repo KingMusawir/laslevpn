@@ -29,13 +29,13 @@ const Navbar = () => {
   return (
     <div>
       <header className='header container'>
-        <nav className='nav-bar'>
+        <nav className='nav-bar flex justify-between mt-8 mb-40'>
           <div className='logo'>
             <Link to='/'>
               <img src={Logo} alt='LaslesVpn Logo' />
             </Link>
           </div>
-          <ul className='nav-list list-none hidden md:flex gap-8 items-center '>
+          <ul className='nav-list list-none hidden lg:flex gap-8 items-center '>
             {/* Map through navItems array and render Link components */}
             {navItems.map((item, index) => (
               <li key={index}>
@@ -43,14 +43,14 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className='nav-optin'>
-            <Link to='/login'>
+          <div className='nav-optin flex gap-8 items-center'>
+            <Link to='/login' className=' hidden md:block'>
               <span>Sign In</span>
             </Link>
-            <Link to='/signup'>
+            <Link to='/signup' className=' hidden md:block'>
               <ButtonProp value='Sign Up' />
             </Link>
-            <div className=' grid md:block'>
+            <div className=' grid lg:hidden'>
               <GiHamburgerMenu size='40' color='red' onClick={openModal} />
             </div>
             {showModal && (

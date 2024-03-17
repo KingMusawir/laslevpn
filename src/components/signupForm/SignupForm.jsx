@@ -35,6 +35,12 @@ function SignupForm() {
       type: 'password',
       placeholder: 'Create a password',
     },
+    {
+      name: 'pcode',
+      label: 'Postal Code',
+      type: 'text',
+      placeholder: 'Postal Code',
+    },
   ];
   const formType = 'signup';
 

@@ -8,14 +8,14 @@ function Pricing() {
   return (
     <div className='price-div'>
       <section className='section-pricing container'>
-        <div className='pricing-header'>
+        <div className='pricing-header text-center'>
           <h2 className='secondary-header'>Choose Your Plan</h2>
           <p className='subheading'>
             Let's choose the package that is best for you and explore it happily
             and cheerfully.
           </p>
         </div>
-        <div className='pricing-info'>
+        <div className='pricing-info flex justify-center items-center flex-col lg:flex-row'>
           <div>
             <List
               icon={Standard}

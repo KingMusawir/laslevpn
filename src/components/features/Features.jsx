@@ -5,7 +5,7 @@ import DoneIcon from '../../assets/doneIcon.png';
 function Features() {
   return (
     <div>
-      <section className='features container'>
+      <section className='features container flex flex-col md:flex-row gap-20 justify-center items-center mb-60'>
         <div className='features-img-box'>
           <img src={FeaturesImg} alt='Features image illustration' />
         </div>

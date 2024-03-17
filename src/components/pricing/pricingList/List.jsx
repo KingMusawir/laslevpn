@@ -5,9 +5,9 @@ import ButtonProp from '../../button/ButtonProp';
 function List(props) {
   return (
     <div>
-      <div className='pricing'>
+      <div className='pricing flex flex-col justify-center items-center text-center rounded-2xl p-16 text-xs  md:text-xl '>
         <div>
-          <img src={props.icon} alt='' />
+          <img src={props.icon} class='max-w-full h-auto' />
           <div className='price-plan'>{props.plan}</div>
         </div>
 

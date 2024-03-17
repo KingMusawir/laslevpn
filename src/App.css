@@ -35,44 +35,18 @@ a {
 }
 
 /* ########### NAVIGATION SECTION ############## */
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-  margin-bottom: 10rem;
-}
-/* .nav-list {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-} */
+
 .nav-list li:hover {
   filter: brightness(170%);
 }
-.nav-optin {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
+
 .nav-optin span {
   color: #111;
   font-weight: 600;
 }
 
 /* ########### HERO SECTION ############## */
-.hero {
-  display: flex;
-  gap: 3rem;
-  margin-bottom: 10rem;
-}
 
-.primary-header {
-  font-size: 5rem;
-  font-weight: 500;
-  line-height: 1.5;
-  margin-bottom: 3rem;
-}
 .primary-header span {
   font-weight: 600;
 }
@@ -80,7 +54,7 @@ a {
   font-size: 1.6rem;
   color: #4f5665;
   line-height: 2;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 .hero-btn,
 .premiumBtn,
@@ -99,12 +73,7 @@ a {
 }
 
 /* ########### CONNECTION SECTION ############## */
-.users-body {
-  font-size: 1.5rem;
-  display: flex;
-  gap: 5rem;
-  padding: 2rem 8rem;
-}
+
 .icon {
   max-width: 100%;
   max-height: 100%;
@@ -119,40 +88,17 @@ a {
   color: #f53838;
   border-radius: 50%;
 }
-.icon-info {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-.icon-number {
-  font-weight: 700;
-}
+
 .icon-para {
   color: #4f5665;
 }
+
 .display {
-  border: none;
-  border-radius: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  padding: 4rem;
   box-shadow: 5px 50px 80px 5px #f2f2f2;
-  margin-bottom: 10rem;
-}
-.borderlr {
-  border-left: 1px solid #c9c9c9;
-  border-right: 1px solid #c9c9c9;
 }
 
 /* ########### FEATURES SECTION ############## */
-.features {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10rem;
-  margin-bottom: 10rem;
-  padding-bottom: 2rem;
-}
+
 .features-text-box {
   /* justify-self: center; */
   align-self: center;
@@ -195,24 +141,11 @@ a {
   margin-bottom: 10rem;
 }
 
-.pricing-header {
-  text-align: center;
-  padding-top: 2rem;
-}
 .pricing-info {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 4rem;
 }
 .pricing {
-  padding: 2rem;
   border: 1px solid #e7e7e7;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   transition: all 1s ease;
 }
 .pricing:hover {
